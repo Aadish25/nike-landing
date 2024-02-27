@@ -46,7 +46,7 @@ export default function CustomerReviews() {
           exceptional experiences with us.
         </p>
       </div>
-      <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row w-3/4 justify-around">
+      <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row w-3/4 justify-around">
         {customer}
       </div>
     </div>

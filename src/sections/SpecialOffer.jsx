@@ -7,7 +7,7 @@ export default function SpecialOffer() {
         <img src={offer} alt="offer" />
       </div>
       <div className="flex flex-col gap-6 w-full lg:w-3/6">
-        <p className="text-3xl md:text-4xl font-semibold">
+        <p className="text-4xl font-semibold">
           <span className="text-coral-red">Special</span> Offer
         </p>
         <p className=" text-md md:text-xl text-slate-gray">

@@ -33,7 +33,7 @@ export default function PopularProducts() {
   });
   return (
     <div className="pt-16">
-      <div className="flex flex-col gap-4 w-full min-h-screen">
+      <div className="flex flex-col max-lg:text-center gap-4 w-full min-h-screen">
         <h1 className="text-4xl font-bold">
           Our <span className="text-coral-red">Popular</span> Products
         </h1>
@@ -41,7 +41,9 @@ export default function PopularProducts() {
           Experience top-notch quality and style with our sought-after
           selections. Discover a world of comfort, design, and value
         </p>
-        <div className="flex flex-wrap gap-6 md:gap-20">{shoes}</div>
+        <div className="flex flex-wrap max-lg:justify-center gap-6 md:gap-20">
+          {shoes}
+        </div>
       </div>
     </div>
   );
